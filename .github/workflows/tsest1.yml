@@ -1,0 +1,8 @@
+name: "infra pipeline"
+on:  workflow_dispatch
+jobs:
+
+ Terraform-job:
+   runs-on:[self-hosted, linux, x64, gpu]
+ 
+ 
