@@ -3,6 +3,8 @@ on:  workflow_dispatch
 jobs:
 
  Terraform-job:
-   runs-on:[self-hosted, linux, x64, gpu]
- 
+   runs-on:self-hosted
+   Steps:
+    - name:checkout
+      uses: actions/setup-node@v4
  
